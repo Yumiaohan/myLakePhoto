@@ -23,7 +23,8 @@ public:
     
     ofImage a1,a2,b1,b2,c1,c2,d1,d2,e1,e2;
     
-    
-    float x1,x2,x3,x4,x5,y1,y2,y3,y4,y5, imageWidth, speed;
+    ofSoundPlayer sound;
+    bool pressed,pressed1,pressed2,pressed3;
+    float x1,x2,x3,x4,x5,y1,imageWidth,speed,tl;
 };
 
